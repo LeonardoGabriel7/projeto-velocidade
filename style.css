@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(245, 222, 179, 0.925);
+}
+
+h1{
+    color: brown;
+    font-size: 40px;
+}
+
+h2{
+    font-size: 25px;
+
+}
+
+
+
+input{
+    height: 20px;
+    
+}
+
+p{
+    color:brown;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+h1, h2, p{
+    text-align: center;
+}
+
+input{
+    margin-top: 0px;
+    width: 78px;
+}
+
+}

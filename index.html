@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Sistema de multas</h1>
+    <h2>Velocidade máxima 60km/h </h2>
+    <form onsubmit="calcular(); return false;">
+        Velocidade do carro<input type="number" name="txtvel" id="txtvel" required> km/h
+        <input type="submit" value="Verificar">
+    </form>
+    <div id="res"></div>
+
+    <script src="./app.js"> </script>
+</body>
+
+</html>
